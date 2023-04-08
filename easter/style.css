@@ -1,0 +1,321 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+    list-style: none;
+    justify-content: space-between;
+    font-family: 'Alegreya', serif;
+    font-family: 'Dangrek', cursive;
+
+  
+}
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(12,3,51,0.3), rgba(12,3,51,0.3));
+    position: relative;
+    padding: 0.5%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.content{
+    text-align: center;
+}
+.content h1{
+    font-size: 160px;
+    color: #fff;
+    font-weight: 600;
+    font-family: 'Alegreya', serif;
+}
+.content p{
+    font-size: 40px;
+    color: #fff;
+    font-weight: 400;
+    font-family: 'GFS Didot', serif;
+}
+.content a{
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    font-size: 24px;
+    border: 2px solid #fff;
+    padding: 14px 70px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin-top: 20px;
+}
+.back{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    width: 100%;
+} 
+@media (min-aspect-ratio: 16/9){
+    .back{
+        width: 100%;
+        height: auto;
+    }
+}
+@media (max-aspect-ratio: 16/9){
+    .back{
+        width: auto;
+        height: 100%;
+    }
+}
+
+
+.main-section{
+    background: #2f2c3d;
+    position: relative;
+
+}
+.section-text{
+    height: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5rem;
+    align-items: center;
+}
+h2{
+    width: 100%;
+    height: 300px;
+    position: relative;
+    padding: 0.5%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: black;
+    font-size: 40px;
+    color: rgb(231, 231, 231);
+    font-weight: 700;
+    position: relative;
+    font-family: 'Dangrek', cursive;
+    
+}
+.text p{
+    font-size: 25px;
+    padding: 40px 30px;
+    color: #FFf;
+    line-height: 30px;
+    font-family: 'GFS Didot', serif;
+}
+.main-section .img 
+img{
+    width: 50%;
+    height: auto;
+    transition-duration: 2s;
+    margin-right: 100%px;
+}
+h2{
+    width: 100%;
+    height: 300px;
+    position: relative;
+    padding: 0.5%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: black;
+    font-size: 40px;
+    color: rgb(231, 231, 231);
+    font-weight: 700;
+    position: relative;
+    
+}
+.section h3{
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 200;
+    color: rgb(233, 229, 229);
+    font-family: 'Alegreya', serif;
+}
+.section p{
+    padding: 20px;
+    color: #FFf;
+    font-family: 'GFS Didot', serif;
+}
+.section .img img{
+    width: 70%;
+}
+.title-1{
+    width: 100%;
+    height: 300px;
+    position: relative;
+    padding: 0.5%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: black;
+    font-size: 40px;
+    color: rgb(231, 231, 231);
+    font-weight: 700;
+    position: relative;
+    font-family: 'Times New Roman', Times, serif;
+}
+.title-1 figcaption cite{
+    margin-bottom: 20px;
+}
+.images{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    padding: 0.5%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.images img{
+    width: 20%;
+    height: 20%;
+    height: auto;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.hello{
+    margin-left: 20px ;
+}
+.hello h1{
+    color: #FFf;
+    font-size: 30px;
+    font-family: 'Alegreya', serif;
+}
+.hello p{
+    color: #ccccce;
+    font-size: 15px;
+}
+a:hover{
+    background-color: #fff;
+    color: #ccccce;
+}
+
+
+@media (max-width: 700px) {
+        .content h1{
+            font-size: 70px;
+        }
+      
+        .content p{
+            font-size: 15px;
+        }
+        .content a{
+                text-decoration: none;
+                display: inline-block;
+                color: #fff;
+                font-size: 10px;
+                border: 1px solid #fff;
+                padding: 7px 35px;
+                border-radius: 50px;
+                transition: 0.5s;
+                margin-top: 20px;       
+        }
+        h2{
+            width: 100%;
+            height: 200px;
+            position: relative;
+            padding: 0.5%;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+            background-color: black;
+            font-size: 20px;
+            color: rgb(231, 231, 231);
+            font-weight: 700;
+            position: relative;   
+        }
+        .section-text{
+            height: auto;
+            width: 100%;
+            display: block;
+            position: relative;
+        }
+        .text p{
+            font-size: 14px;
+            padding: 20px 30px;
+            color: #FFf;
+            line-height: 20px;
+        }
+        .main-section .img 
+        img{
+            width: 60%;
+            height: auto;
+            display: inline;
+            position: relative;
+            margin-left: 50px;
+        }
+
+        .section h3{
+            padding: 20px;
+            font-size: 15px;
+            font-weight: 200;
+            color: rgb(233, 229, 229);
+        }
+        .section p{
+            padding: 20px;
+            color: #FFf;
+            font-size: 15px;
+            line-height: 20px;
+        }
+        .section .img img{
+            width: 70%;
+        }
+        .title-1{
+            width: 100%;
+            height: 200px;
+            position: relative;
+            padding: 0.5%;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+            background-color: black;
+            font-size: 20px;
+            color: rgb(231, 231, 231);
+            font-weight: 700;
+            position: relative;
+        }
+        .hello{
+            margin-left: 10px ;
+        }
+        .hello h1{
+            color: #FFf;
+            font-size: 12px;
+        }
+        .hello p{
+            color: #ccccce;
+            font-size: 8px;
+        }
+}
+
+
+
+/*.title h2::before{
+    content: '';
+    height: 4px;
+    width: 50px;
+    background-color: red;
+    position: absolute;
+    top: 100%;
+    left: 20;
+}
+.title h2::after{
+    content:'';
+    height: 4px;
+    width: 25px;
+    background-color: red;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    margin-top: 8px;
+} */
